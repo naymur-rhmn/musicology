@@ -64,7 +64,6 @@ header nav {
 .nav-item a:active,
 .nav-item a:focus {
   color: #d9d8d8;
-  ;
 }
 
 .search-icon {
@@ -138,4 +137,32 @@ header nav {
 
 .feature-section .card-body {
   background-color: var(--var-black);
+}
+
+/* Pricing Section */
+.pricing-section {
+  background-color: var(--var-black);
+  padding: 4rem 0;
+}
+
+.pricing-section .card {
+  background-color: var(--var-red);
+  border: none;
+  border-radius: 3px;
+  padding: .5rem;
+}
+
+.pricing-section .card img {
+  max-width: 130px;
+  margin: 2rem auto;
+  /* padding-top: 1rem; */
+}
+
+.pricing-section .card .pricing-btn {
+  background-color: var(--var-black);
+  width: 100%;
+  color: var(--var-white);
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
 }
