@@ -18,6 +18,16 @@ body {
 
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
 a {
   text-decoration: none;
   display: inline-block;
@@ -30,9 +40,6 @@ a {
 
 /* header */
 header {
-  position: relative;
-  top: 0;
-  left: 0;
   z-index: 9999;
 }
 
@@ -67,15 +74,16 @@ header nav {
 
 /* hero section */
 .hero-section {
-  position: absolute;
-  top: -10px;
+  position: relative;
+  margin-top: -100px;
   left: 0;
   background-image: url(../images/banner.jpg);
   height: 100vh;
   width: 100%;
   background-size: cover;
-  background-position: -200 -80;
+  background-position: ;
   background-repeat: no-repeat;
+  z-index: -14;
 }
 
 .hero-content {
@@ -102,4 +110,32 @@ header nav {
   padding: 1rem 4rem;
   border-radius: 3px;
   margin-top: 1.5rem;
+}
+
+/* feature section */
+.feature-section {
+  background-color: var(--var-red);
+  position: relative;
+  padding: 4rem 0;
+}
+
+.section-title {
+  padding: 2rem 0;
+}
+
+.section-title h1 {
+  font-size: 75px;
+}
+
+.feature-section .card {
+  border: none;
+  border-radius: 0;
+}
+
+.feature-section .card img {
+  max-height: 350px;
+}
+
+.feature-section .card-body {
+  background-color: var(--var-black);
 }
