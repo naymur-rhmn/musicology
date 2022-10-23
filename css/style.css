@@ -37,9 +37,15 @@ a {
   font-weight: normal;
 }
 
+a:hover {
+  color: #d9d8d8;
+  cursor: pointer;
+}
+
 
 /* header */
 header {
+  position: relative;
   z-index: 9999;
 }
 
@@ -56,14 +62,11 @@ header nav {
   font-weight: 400;
 }
 
-.nav-item a:hover {
+.nav-item a:hover,
+.nav-item a:focus,
+.nav-item a:active {
+  color: #d9d8d8;
   cursor: pointer;
-  color: #d9d8d8;
-}
-
-.nav-item a:active,
-.nav-item a:focus {
-  color: #d9d8d8;
 }
 
 .search-icon {
@@ -76,31 +79,28 @@ header nav {
   position: relative;
   margin-top: -100px;
   left: 0;
+  top: 0;
   background-image: url(../images/banner.jpg);
   height: 100vh;
   width: 100%;
   background-size: cover;
-  background-position: ;
+  background-position: center;
   background-repeat: no-repeat;
-  z-index: -14;
 }
 
 .hero-content {
   margin-top: 8rem;
   position: relative;
   bottom: -50px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 40px;
 }
 
 .hero-title {
   font-size: 124px;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-}
-
-.hero-content {
-  font-size: 30px;
-  letter-spacing: 1px;
-  line-height: 40px;
 }
 
 .hero-btn {
@@ -165,4 +165,41 @@ header nav {
   font-size: 25px;
   font-family: 'Oswald', sans-serif;
   font-weight: normal;
+}
+
+/* promo section */
+.promo-section {
+  background-color: var(--var-red);
+  position: relative;
+}
+
+.promo-bg-1 {
+  background-image: url(../images/promo-1.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+
+}
+
+.promo-content {
+  height: 900px;
+}
+
+.promo-content h3 {
+  font-size: 75px;
+}
+
+.promo-content p {
+  font-size: 29px;
+}
+
+.promo-btn {
+  background-color: var(--var-black);
+  padding: 1rem 4rem;
+  display: inline-block;
 }
