@@ -257,3 +257,57 @@ header nav {
 .profile-content h4 {
   font-size: 54px;
 }
+
+/* newslatter section */
+.newslatter-section {
+  background-color: var(--var-red);
+  padding: 100px 0;
+}
+
+.newslatter-content h2 {
+  font-size: 75px;
+}
+
+.newslatter-content p {
+  font-size: 29px;
+}
+
+.newslatter-form input {
+  border: none;
+  padding: .8rem;
+}
+
+.newslatter-form input[type="button"] {
+  background-color: var(--var-black);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  color: var(--var-white);
+  text-transform: uppercase;
+  margin-left: -4px;
+}
+
+.newslatter-form input[type="email"] {
+  width: 60%;
+}
+
+/* footer */
+.footer {
+  background-color: var(--var-black);
+}
+
+.footer h5 {
+  font-size: 35px;
+  margin-bottom: 1rem;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+}
