@@ -1,0 +1,220 @@
+/* =======================
+large devices
+==========================*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .hero-title {
+    font-size: 100px;
+  }
+}
+
+/* =======================
+medium devices
+==========================*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-collapse {
+    padding: 20px 0;
+  }
+
+  .hero-title {
+    font-size: 70px;
+  }
+
+  .hero-btn {
+    padding: .5rem 2rem;
+    margin-top: 0.5rem;
+  }
+
+  .hero-text {
+    font-size: 24px;
+  }
+
+  /* promo section */
+  .promo-content h3 {
+    font-size: 55px;
+  }
+
+  /* newslatter section */
+  .newslatter-content h2 {
+    font-size: 55px;
+  }
+
+  /* footer */
+  .footer h5 {
+    font-size: 28px;
+  }
+}
+
+/* =======================
+samll devices
+==========================*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .hero-title {
+    font-size: 45px;
+  }
+
+  .hero-text {
+    font-size: 20px;
+  }
+
+  .hero-btn {
+    padding: .4rem .5rem;
+    margin-top: 0.2rem;
+  }
+
+  /* pricing-section */
+  .pricing-btn {
+    font-size: 20px !important;
+  }
+
+  /* promo content */
+  .promo-bg {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-position: 10% 30%;
+  }
+
+  .promo-content {
+    padding: 4rem 0 !important;
+    height: 100%;
+  }
+
+  .promo-content h3 {
+    font-size: 40px;
+  }
+
+  .promo-content p {
+    font-size: 18px;
+  }
+
+  .promo-btn {
+    padding: .8rem 3rem;
+  }
+
+  /* profile-section */
+  .profile-section {}
+
+  .profile-content {
+    height: 100%;
+    min-height: 500px;
+    font-size: 20px;
+    padding: 2rem 0;
+  }
+
+  .profile-content h4 {
+    font-size: 30px;
+  }
+
+  .profile-bg {
+    height: 500px
+  }
+
+  /* newslatter section */
+  .newslatter-content h2 {
+    font-size: 46px;
+  }
+
+  .newslatter-content p {
+    font-size: 22px;
+  }
+
+  /* footer */
+  .footer h5 {
+    font-size: 24px;
+  }
+}
+
+/* =======================
+extra samll devices
+==========================*/
+@media only screen and (max-width: 575px) {
+  .hero-title {
+    font-size: 35px;
+  }
+
+  .hero-text {
+    font-size: 20px;
+  }
+
+  .hero-btn {
+    padding: .3rem 1.5rem;
+    margin-top: 0.2rem;
+    font-size: 20px;
+  }
+
+  /* pricing-section */
+  .pricing-btn {
+    font-size: 18px !important;
+  }
+
+  /* promo-section */
+  .promo-bg {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-position: 10% 30%;
+  }
+
+  .promo-content {
+    padding: 2.5rem 0 !important;
+    height: 100%;
+  }
+
+  .promo-content h3 {
+    font-size: 30px;
+  }
+
+  .promo-content p {
+    font-size: 16px;
+  }
+
+  .promo-btn {
+    padding: .5rem 2rem;
+  }
+
+  /* profile-section */
+  .profile-content {
+    height: 100%;
+    min-height: 500px;
+    font-size: 20px;
+    padding: 2rem 0;
+  }
+
+  .profile-content h4 {
+    font-size: 30px;
+  }
+
+  .profile-bg {
+    height: 500px
+  }
+
+  /* newslatter section */
+  .newslatter-content h2 {
+    font-size: 30px;
+  }
+
+  .newslatter-content p {
+    font-size: 20px;
+  }
+
+  .newslatter-form input {
+    padding: 0.4rem;
+
+  }
+
+  .newslatter-form input[type="email"] {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 4px;
+  }
+
+  .newslatter-form input[type="button"] {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  /* footer */
+  .footer h5 {
+    font-size: 20px;
+  }
+}

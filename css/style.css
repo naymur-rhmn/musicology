@@ -3,7 +3,9 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Oswald', sans-serif;
 */
 
-/* base style */
+/* =======================
+base style
+==========================*/
 :root {
   --var-black: #2C2C2C;
   --var-white: #ffffff;
@@ -42,8 +44,21 @@ a:hover {
   cursor: pointer;
 }
 
+.navbar-toggler-icon {
+  color: var(--var-white);
+  background-color: #fff;
+  border-radius: 4px;
+}
 
-/* header */
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+/* =======================
+header
+==========================*/
 header {
   position: relative;
   z-index: 9999;
@@ -74,7 +89,9 @@ header nav {
   cursor: pointer;
 }
 
-/* hero section */
+/* =======================
+hero section
+==========================*/
 .hero-section {
   position: relative;
   margin-top: -100px;
@@ -111,7 +128,9 @@ header nav {
   margin-top: 1.5rem;
 }
 
-/* feature section */
+/* =======================
+feature section
+==========================*/
 .feature-section {
   background-color: var(--var-red);
   position: relative;
@@ -139,7 +158,9 @@ header nav {
   background-color: var(--var-black);
 }
 
-/* Pricing Section */
+/* =======================
+pricing section
+==========================*/
 .pricing-section {
   background-color: var(--var-black);
   padding: 4rem 0;
@@ -155,7 +176,6 @@ header nav {
 .pricing-section .card img {
   max-width: 130px;
   margin: 2rem auto;
-  /* padding-top: 1rem; */
 }
 
 .pricing-section .card .pricing-btn {
@@ -167,7 +187,9 @@ header nav {
   font-weight: normal;
 }
 
-/* promo section */
+/* =======================
+promo section
+==========================*/
 .promo-section {
   background-color: var(--var-red);
 
@@ -216,15 +238,17 @@ header nav {
   display: inline-block;
 }
 
-/* statistics section */
+/* =======================
+statistics section
+==========================*/
 .statistics-section {
   background-color: var(--var-black);
   padding: 4rem 0rem;
 }
 
-/* profile section */
-
-
+/* =======================
+profile section
+==========================*/
 .profile-section {
   position: relative;
   height: 100%;
@@ -258,7 +282,9 @@ header nav {
   font-size: 54px;
 }
 
-/* newslatter section */
+/* =======================
+newslatter section
+==========================*/
 .newslatter-section {
   background-color: var(--var-red);
   padding: 100px 0;
@@ -290,7 +316,9 @@ header nav {
   width: 60%;
 }
 
-/* footer */
+/* =======================
+footer section
+==========================*/
 .footer {
   background-color: var(--var-black);
 }
